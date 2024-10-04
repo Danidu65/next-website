@@ -17,7 +17,6 @@ export default function Home() {
         h5Text="The Key To Life"
         h6Text="Be awsome and save nature!."
         h2Text="Contact Us"
-
       />
 
       <Wrapper>
