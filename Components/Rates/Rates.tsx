@@ -23,7 +23,6 @@ export const Rates = () => {
                         <Box
                             key={I.id}
                             h6Text={I.Header}
-                            pText={I.Desc}
                             Imgurl={I.ImgUrl}
                         />
                     ))

@@ -4,7 +4,6 @@ import styles from './Rates.module.css'
 
 interface BoxProps {
     h6Text: string,
-    pText: string,
     Imgurl: string,
     ImgAlt?: string,
 }
@@ -12,7 +11,6 @@ interface BoxProps {
 export const Box = (
     {
         h6Text,
-        pText,
         Imgurl,
         ImgAlt
     }: BoxProps
@@ -24,7 +22,6 @@ export const Box = (
                     <div>
                         <h6>{h6Text}</h6>
                         <p>
-                            {pText}
                         </p>
                     </div>
                 </div>
