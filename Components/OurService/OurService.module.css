@@ -1,0 +1,47 @@
+.Aboutus div h6 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #04773B;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Aboutus div h5 {
+    margin-block: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #000;
+}
+
+.Aboutus div p {
+    font-size: 3px;
+    color: #000000;
+}
+
+.CustomContent {
+    background-color: beige;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.CustomContent div {
+    flex-basis: calc(50% - 10px);
+    border: 0.1px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.CustomContent div h6 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.CustomContent img{
+    margin-top: 30px;
+    margin-bottom: -50px;
+}

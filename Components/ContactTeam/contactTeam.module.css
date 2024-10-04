@@ -1,0 +1,32 @@
+.BusinessGrowsBg {
+    position: relative;
+}
+
+.BusinessGrowsBg img {
+    height: 75vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.Content {
+    position: absolute;
+    padding: 350px;
+    bottom: -100px;
+    padding-left: 150px;
+}
+
+.Content h6 {
+    font-weight: 600;
+    font-size: 90px;
+    font-style: italic;
+    color: #ffffff;
+}

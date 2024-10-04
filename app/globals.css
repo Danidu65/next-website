@@ -1,0 +1,45 @@
+/* Font Family */
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap'); */
+
+:root {
+  --main: #007e3f;
+  --boxShadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel Decorative", system-ui;
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  transition: 0.1s ease-in;
+}
+
+*::selection {
+  background: var(--main);
+}
+
+body {
+  /* background: rgb(77, 77, 77);
+  background: -moz-linear-gradient(90deg, rgba(77, 77, 77, 1) 0%, rgba(14, 14, 19, 1) 23%, rgba(2, 2, 32, 1) 35%, rgba(8, 11, 29, 1) 63%, rgba(0, 6, 8, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(77, 77, 77, 1) 0%, rgba(14, 14, 19, 1) 23%, rgba(2, 2, 32, 1) 35%, rgba(8, 11, 29, 1) 63%, rgba(0, 6, 8, 1) 100%);
+  background: linear-gradient(90deg, rgba(77, 77, 77, 1) 0%, rgba(14, 14, 19, 1) 23%, rgba(2, 2, 32, 1) 35%, rgba(8, 11, 29, 1) 63%, rgba(0, 6, 8, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d4d4d", endColorstr="#000608", GradientType=1); */
+
+
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+  background: #c2ebb5;
+}
